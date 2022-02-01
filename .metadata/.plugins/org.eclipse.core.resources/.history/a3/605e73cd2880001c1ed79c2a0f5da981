@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+Servlet hidden name is <%=config.getServletName() %>
+Servlet init param defined in deployment descriptor is: <%=config.getInitParameter("Drivername") %>
+and <%config.getInitParameter("Drivername2") %> and <%=config.getInitParameter("Drivername3") %> 
+</body>
+</html>

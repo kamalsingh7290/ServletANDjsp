@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 6 elements to &apos;webapp&apos;&#x0D;&#x0A;- Original project: &apos;SessionManagement&apos;&#x0D;&#x0A;- Destination element: &apos;webapp&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     index.html&#x0D;&#x0A;     scss&#x0D;&#x0A;     css&#x0D;&#x0A;     fonts&#x0D;&#x0A;     images&#x0D;&#x0A;     js" description="Copy elements" element1="src/main/webapp/index.html" element2="src/main/webapp/scss" element3="src/main/webapp/css" element4="src/main/webapp/fonts" element5="src/main/webapp/images" element6="src/main/webapp/js" files="1" flags="589830" folders="5" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1642526575641" target="/URlrewritting/src/main/webapp" units="0" version="1.0"/>
+</session>

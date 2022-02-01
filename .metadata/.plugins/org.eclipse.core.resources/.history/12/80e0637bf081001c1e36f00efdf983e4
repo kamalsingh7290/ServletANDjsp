@@ -1,0 +1,31 @@
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<%application.setAttribute("name2", "singh");%>
+	
+	<%=application.getAttribute("name2")%>
+	
+	<%out.print("<br>Context value: "+application.getInitParameter("name")+"<br>"); %>
+	
+	<% out.print("Sevlet info: "+application.getServerInfo()+"<br>");
+	
+	out.print(application.getEffectiveMajorVersion()+" and "+application.getEffectiveSessionTrackingModes()+
+			" and "+application.getEffectiveMinorVersion());
+	
+	out.print("<br>Class: "+page.getClass());
+	out.print("<br>Current jsp page name: "+page);
+	%>
+	
+	<%Date d=new Date();
+	out.print("<br>"+d);
+	%>
+	
+</body>
+</html>

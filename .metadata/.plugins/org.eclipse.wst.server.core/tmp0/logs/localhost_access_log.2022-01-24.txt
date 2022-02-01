@@ -1,0 +1,6 @@
+127.0.0.1 - - [24/Jan/2022:14:11:52 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Jan/2022:14:11:53 +0530] "GET /ServletProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Jan/2022:14:11:53 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Jan/2022:14:12:12 +0530] "POST /ServletProject/SaveServlet HTTP/1.1" 200 790
+0:0:0:0:0:0:0:1 - - [24/Jan/2022:14:12:14 +0530] "GET /ServletProject/ViewServlet HTTP/1.1" 200 849
+0:0:0:0:0:0:0:1 - - [24/Jan/2022:14:12:46 +0530] "GET /ServletProject/index.html HTTP/1.1" 304 -
